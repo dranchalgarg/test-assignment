@@ -1,0 +1,9 @@
+1. Create an abstract class Calculator having add, and substract methods. 
+Also create a functional interface having sum method. 
+The Calculator class is meant to for calculating two numbers. 
+Create a class Basic_calculator that adds, subtracts, multiplies and divides two numbers.
+Create a class Advanced_calculator that finds that performs the any two bitwise operations on those two numbers.
+Create objects of those classes. Use the concept of dynamic method dispatch. 
+In the main method, make the use of lambda function to find the sum of three numbers.
+
+
