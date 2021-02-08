@@ -1,0 +1,80 @@
+1. You are given an interface AdvancedArithmetic which contains a method signature int divisor_sum(int n). You need to write a class called MyCalculator which implements the interface.  divisorSum function just takes an integer as input and return the sum of all its divisors. For example divisors of 6 are 1, 2, 3 and 6, so divisor_sum should return 12. The value of n will be at most 1000.  (hackerrank) 
+
+ 
+
+2. Define an exception called "NoMethod Exception" that is thrown when a string is not equal to "India". Write the program that uses this exceptiom
+
+
+import java.lang.Exception;
+class Myexception extends Exception
+{
+MyException (String message)
+{
+super(message);
+}
+}
+class Test
+{
+public static void main(String args[])
+{
+int x=5, y=1000;
+try
+{
+float z= (float) x/(float)y;
+if(z<0.0q)
+{
+throw new MyException(“Number is too small”);
+}
+}
+catch(MyException e)
+{
+System.out.print(“Caught Exception”);
+System.out.print(e.getMessage());
+}
+finally
+{
+System.out.print(“program ends”);
+}
+}
+}
+
+
+3. Execute the following lines of code in the catch block  and share the output
+System.out.println("filIn: " + e.fillInStackTrace());
+System.out.println("cause: " + e.getCause());
+System.out.println("local: " + e.getLocalizedMessage());
+System.out.println("messa: " + e.getMessage());
+System.out.println("trace: " + e.getStackTrace());
+System.out.print("trace: "); e.printStackTrace();
+System.out.print("string: ");e.toString();
+
+4. write a program to implement NumberFormatException
+
+5. Write catch blocks for the following code snippet
+
+class ExceptionTest {​​​​
+public static int j;
+public static void main (String args[ ] ) {​​​​
+for (int i = 0; i < 4; i++ ) {​​​​
+try {​​​​
+switch (i) {​​​​
+case 0 :
+int zero = 0;
+j = 999/ zero;
+break;
+case 1:
+int b[ ] = null;
+j = b[ 0] ;
+break;
+case 2 :
+int c[] = new int [2] ;
+j = c[10];
+break;
+case 3 :
+char ch = "Java".charAt(9) ;
+break;
+}​​​​
+}​​​​
+
+
+6. Create a class Bank with withdraw() and deposit() methods. Write a program that raised InsufficientFundsException
