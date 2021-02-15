@@ -1,0 +1,12 @@
+1. WAP to find permutations of given String.
+
+
+Permutation refers to ordering of characters but it takes position into account i.e. if you have String "ab" then it will have just 2 permutations "ab" and "ba", because position of character in both String are different.
+
+Similarly for a String of n characters there are !n (factorial of n) permutations are possible e.g. for a String of 3 characters like "xyz" has 6 possible permutations, xyz, xzy, yxz, yzx, zxy, zyx as seen in our example.
+
+
+2. WAP to check if two Strings are a rotation of each other in Java
+
+Example: programming , ingprogramm
+
