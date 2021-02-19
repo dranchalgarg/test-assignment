@@ -1,0 +1,2 @@
+Write a program to implement the concept of throw and throws. 
+The program should throw an exception "FailException" if the student scores CGPA<3.5
